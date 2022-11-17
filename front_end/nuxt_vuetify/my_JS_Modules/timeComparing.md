@@ -38,7 +38,7 @@ export const TimeComparing = (targetTime) => {
     targetMinutes
   ); // 파라미터
   
-  //현재 시간이 타겟 시간으로 부터 얼마나 경과했는지를 구한다.
+  //현재 시간이 타겟 시간으로 부터 몇분 경과했는지를 구한다.
   //다른 비교가 필요하다면 이 부분을 수정.
   const elapsedMSec = target.getTime() - now.getTime();
   return elapsedMSec / 1000 / 60;
