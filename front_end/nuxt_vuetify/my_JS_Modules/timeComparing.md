@@ -27,18 +27,20 @@ export const TimeComparing = (targetTime) => {
   const targetDay = targetTime[3]; // 일
   const targetHours = targetTime[4]; // 현재 시간
   const targetMinutes = targetTime[5]; // 현재 분
-
+ 
   const now = new Date(nowYear, nowMonth, nowDay, nowHours, nowMinutes); // 현재
 
-  const complete = new Date(
+  const target = new Date(
     targetYear,
     targetMonth,
     targetDay,
     targetHours,
     targetMinutes
   ); // 파라미터
-
-  const elapsedMSec = complete.getTime() - now.getTime();
+  
+  //현재 시간이 타겟 시간으로 부터 얼마나 경과했는지를 구한다.
+  //다른 비교가 필요하다면 이 부분을 수정.
+  const elapsedMSec = target.getTime() - now.getTime();
   return elapsedMSec / 1000 / 60;
 };
 
