@@ -18,14 +18,14 @@ export const formatBizNum = (str) => {
 
 //휴대전화번호 정규식
 export const regexPhone = /^(\d{3})(\d{3,4})(\d{4})$/;
-//휴대전화번호 정규식에 하이픈 넣기
+//휴대전화번호 포맷 형식으로 변경
 export const formatPhoneNum = (str) => {
   return str.replace(regexPhone, `$1-$2-$3`);
 };
 
 //유선전화번호 정규식
 export const regexTel = /^(\d{2,3})(\d{3,4})(\d{4})$/;
-//휴대전화번호 정규식에 하이픈 넣기
+//유선전화번호 형식으로 변경
 export const formatTelNum = (str) => {
   return str.replace(regexTel, `$1-$2-$3`);
 };
