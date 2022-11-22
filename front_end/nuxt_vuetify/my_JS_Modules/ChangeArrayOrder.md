@@ -9,7 +9,7 @@
 ```js
 export const ChangeArrayOrder = (list, targetPosition, position) => {
   // 이동할 요소(target)의 index값, 얼마나 이동할지(position)값을 더해서 저장해둠
-  const newPosition = targetPosition - 1
+  const newPosition = targetPosition + position
   
   // 만약 새로 이동하는 위치가 0보다 작거나 전체 배열 길이보다 크면 수행하지 않음
   if (newPosition < 0 || newPosition >= list.length) return
