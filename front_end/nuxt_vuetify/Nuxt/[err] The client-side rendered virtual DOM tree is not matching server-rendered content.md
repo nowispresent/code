@@ -1,4 +1,4 @@
-# [err] The client-side rendered virtual DOM tree is not matching server-rendered content.
+# The client-side rendered virtual DOM tree is not matching server-rendered content.
 
 ## 원인
 - v-if로 화면을 표시할지 안할지 결정하는 로직에서 발생,
