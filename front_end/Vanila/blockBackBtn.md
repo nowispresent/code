@@ -10,6 +10,7 @@ preventBackPage() {
   // 수행한 뒤에 뒤로가기 등록된 이벤트를 없애줌
 	window.removeEventListener("popstate", this.preventBackPage);
 },
+```
 
 ## 2. 백버튼을 막아야하는 시점에 이벤트를 추가 해줌
 ```js
