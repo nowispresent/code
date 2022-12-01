@@ -1,4 +1,4 @@
-# getDataFromObj.md
+# getDataFromObj
 - 오브젝트 배열에서 필요한 값만 추출하는 방법에 관해서.
 
 ## map
