@@ -3,13 +3,13 @@
 
 ## draggable = true
 - 드래그 대상으로 지정하기
-```vue.js
+```vue
 <div :draggable = "true" >드래그 할 대상 영역</div>
 ```
 
 ## dragstart
 - 드래그 시작 이벤트, 드래그 대상으로 지정된 엘리먼트를 press down 하면 동작함
-```vue.js
+```vue
 <script>
   ...
   methods:{
