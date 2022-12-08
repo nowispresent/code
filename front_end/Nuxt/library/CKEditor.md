@@ -51,3 +51,8 @@ export default {
   </client-only>
 </div>
 ```
+
+### CKEditor 작성내용 데이터 취득하기
+```vue
+```
+
