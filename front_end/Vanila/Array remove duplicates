@@ -11,7 +11,7 @@
 const arr = [{id: 1}, {id: 2}]
 
 //filter는 중복되는 값을 담은 배열을 반환한다.
-const dup = arr.filter((item) => item.id === payload.id)≈
+const dup = arr.filter((item) => item.id === payload.id)
 
 if (dup.length === 0) {
   arr.push(payload)
