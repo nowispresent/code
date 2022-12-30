@@ -6,14 +6,14 @@
 ## 변수
 - camelCase로 작성
 ### 상태값
-  1. boolean
+  - boolean
     - is + true 조건 동사 또는 명사
     - 예) 다크모드를 판별하는 상태 변수일 경우
       - isDarkMode
-  2. List
+  - List
     - 명사 + List
     - 예) 
-  4. Object
+  - Object
     - 명사 + Obj
 ### 함수
 - camelCase로 작성
