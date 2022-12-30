@@ -18,6 +18,7 @@
 ```
 예) 회원 전화번호 (String)
 => userTel
+
 예) 회원 전화번호 (Number)
 => userTelNum
 ```
