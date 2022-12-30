@@ -6,22 +6,42 @@
 ## 변수
 - camelCase로 작성
 ### 상태값(State)
-- boolean
+- String
+  - 명사
+```
+예) 유저 이름
+=> userName
+```
+
+- Number
+  - 명사 + Num
+```
+예) 회원 전화번호 (String)
+=> userTel
+예) 회원 전화번호 (Number)
+=> userTelNum
+```
+
+- Boolean
   - is + "true 조건"을 의미하는 동사 또는 명사
 ```
 예) 다크모드일때 "true"를 갖는 상태 변수일 경우
-> isDarkMode
+=> isDarkMode
 ```
-  
-#### List
+
+- List
 - 명사 + List
-- 예) 회원 객체를 담고있는 배열
-  - userList
-#### Object
+```
+예) 회원 객체를 담고있는 배열
+=> userList
+```
+- Object
 - 명사 + Obj
-- 예) 회원 객체
-  - userObj
- 
+```
+예) 회원 객체
+=> userObj
+```
+
 ## 함수
 ### 일반함수
 - camelCase로 작성
@@ -33,3 +53,15 @@
 ### Vue 관련
 #### 액션
 #### method
+
+## 자주쓰는 단어 리스트
+- 회원 : user
+- 제품 : product
+- 시리얼넘버 : srl
+- 전화번호 : tel
+- 휴대전화번호 : mobile
+- 이메일 : email
+- 우편번호 : zip
+- 주소 : addr
+- 상세주소 : addrDetail
+- 회사, 업체 : company
