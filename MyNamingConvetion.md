@@ -6,10 +6,10 @@
 ## 변수
 - camelCase로 작성
 ### 상태값(State)
-#### boolean
-- is + "true 조건"을 의미하는 동사 또는 명사
-- 예) 다크모드일때 "true"를 갖는 상태 변수일 경우
-  - isDarkMode
+- boolean
+  > is + "true 조건"을 의미하는 동사 또는 명사
+  > 예) 다크모드일때 "true"를 갖는 상태 변수일 경우
+    - isDarkMode
 #### List
 - 명사 + List
 - 예) 회원 객체를 담고있는 배열
