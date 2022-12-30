@@ -45,13 +45,21 @@
 
 ### Vue.js
 > .vue 파일 내부에서 정의했을때 규칙
-- data() 안에서 정의
+- data 안에서 정의
   - 변수명 앞에 "d_"를 붙여서 구분
-  ```
-  예) 유저이름
+  ```js
+  // 예) 유저이름
   data: () => ({
     d_userName : String
   })
+  ```
+- props 정의
+  - 변수명 앞에 "p_"를 붙여서 구분
+  ```js
+  // 예) 유저객체 prop
+  props: {
+    p_userObj: Object,
+  }
   ```
 
 ## 함수
