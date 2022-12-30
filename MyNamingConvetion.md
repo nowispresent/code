@@ -63,16 +63,62 @@
   ```
 
 ## 함수
-### 일반함수
-- camelCase로 작성
+> camelCase로 작성
+### API요청
+- GET 요청
+  - get + 취득할 데이터가 보관될 변수명
+```js
+예) 유저 목록 취득
+const getUserList = () => {...}
+```
+
+- POST 요청
+  - post + 작성할 데이터의 변수명
+```js
+예) 유저 객체 작성
+const postUserObj = () => {...}
+```
+
+- Put 요청
+  - put + 수정할 데이터의 변수명
+```js
+예) 유저 객체 수정
+const putUserObj = () => {...}
+```
+
+- DELETE 요청
+  - del + 삭제할 데이터의 변수명
+```js
+예) 유저 객체 삭제
+const delUserObj = () => {...}
+```
+
+### 이벤트
+- 버튼 click 이벤트
+  - 수행되는 함수의 내용 + btn
+```js
+예) 회원 가입 버튼을 클릭 했을때 유저 객체를 POST 하는 함수
+const postUserObjBtn = () => {...}
+```
+
+- 이외의 이벤트
+  - 수행되는 함수의 내용 + 이벤트명
+```js
+ 작성중.......................
+```
+
+### Vue.js Mutation
+### Vue.js Action
 
 
-### React or Vue 컴포넌트
-- PascalCase로 작성
 
-### Vue 관련
-#### 액션
-#### method
+
+
+
+## CSS
+
+## Vue Components
+
 
 ## 자주쓰는 단어 리스트
 - 회원 : user
