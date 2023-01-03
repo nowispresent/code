@@ -4,68 +4,75 @@
 - 개인 프로젝트에서 네이밍 규칙 정리
 
 <details>
-<summary>
-## 변수
-</summary>
+<summary>변수</summary>
   
 ## 변수
 > camelCase로 작성
-### 상태값(State)
-- String
-  - 명사
-```
-예) 유저 이름
-=> userName
-```
-
-- Number
-  - 명사 + Num
-```
-예) 회원 전화번호 (String)
-=> userTel
-
-예) 회원 전화번호 (Number)
-=> userTelNum
-```
-
-- Boolean
-  - is + "true 조건"을 의미하는 동사 또는 명사
-```
-예) 다크모드일때 "true"를 갖는 상태 변수일 경우
-=> isDarkMode
-```
-
-- List
-- 명사 + List
-```
-예) 회원 객체를 담고있는 배열
-=> userList
-```
-- Object
-- 명사 + Obj
-```
-예) 회원 객체
-=> userObj
-```
-
-### Vue.js
-> .vue 파일 내부에서 정의했을때 규칙
-- data 안에서 정의
-  - 변수명 앞에 "d_"를 붙여서 구분
-  ```js
-  // 예) 유저이름
-  data: () => ({
-    d_userName : String
-  })
+  
+  <details>
+  <summary>상태값</summary>
+    
+  ### 상태값(State)
+  - String
+    - 명사
   ```
-- props 정의
-  - 변수명 앞에 "p_"를 붙여서 구분
-  ```js
-  // 예) 유저객체 prop
-  props: {
-    p_userObj: Object,
-  }
+  예) 유저 이름
+  => userName
   ```
+
+  - Number
+    - 명사 + Num
+  ```
+  예) 회원 전화번호 (String)
+  => userTel
+
+  예) 회원 전화번호 (Number)
+  => userTelNum
+  ```
+
+  - Boolean
+    - is + "true 조건"을 의미하는 동사 또는 명사
+  ```
+  예) 다크모드일때 "true"를 갖는 상태 변수일 경우
+  => isDarkMode
+  ```
+
+  - List
+  - 명사 + List
+  ```
+  예) 회원 객체를 담고있는 배열
+  => userList
+  ```
+  - Object
+  - 명사 + Obj
+  ```
+  예) 회원 객체
+  => userObj
+  ```
+  </details>
+  
+  <details>
+  <summary>Vue.js</summary>
+  
+  ### Vue.js
+  > .vue 파일 내부에서 정의했을때 규칙
+  - data 안에서 정의
+    - 변수명 앞에 "d_"를 붙여서 구분
+    ```js
+    // 예) 유저이름
+    data: () => ({
+      d_userName : String
+    })
+    ```
+  - props 정의
+    - 변수명 앞에 "p_"를 붙여서 구분
+    ```js
+    // 예) 유저객체 prop
+    props: {
+      p_userObj: Object,
+    }
+    ```
+  </details>
 </details>
 
 
