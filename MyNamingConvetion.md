@@ -3,6 +3,9 @@
 - new 2022.12
 - 개인 프로젝트에서 네이밍 규칙 정리
 
+<details>
+<summary>Well</summary>
+</details>
 ## 변수
 > camelCase로 작성
 ### 상태값(State)
