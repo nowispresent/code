@@ -4,7 +4,9 @@
 - 개인 프로젝트에서 네이밍 규칙 정리
 
 <details>
-<summary>변수</summary>
+<summary>
+## 변수
+</summary>
   
 ## 변수
 > camelCase로 작성
