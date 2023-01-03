@@ -5,7 +5,8 @@
 
 <details>
 <summary>변수</summary>
-  ## 변수
+  
+## 변수
 > camelCase로 작성
 ### 상태값(State)
 - String
