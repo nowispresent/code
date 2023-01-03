@@ -93,6 +93,29 @@ const putUserObj = () => {...}
 const delUserObj = () => {...}
 ```
 
+### 값의 변경 (DB값은 변경되지 않을때)
+> API를 요청하기 전이나, View에서만 값의 작성, 수정, 삭제등이 일어날때(특히 Obj, Arr의 경우)
+- 작성(Create)
+  - add + 작성할 데이터의 변수명
+```js
+예) 유저 객체 작성
+const addUserObj = () => {...}
+```
+
+- 수정(Update)
+  - edit + 수정할 데이터의 변수명
+```js
+예) 유저 객체 수정
+const editUserObj = () => {...}
+```
+
+- 삭제(DELETE)
+  - rm + 삭제할 데이터의 변수명
+```js
+예) 유저 객체 삭제
+const rmUserObj = () => {...}
+```
+
 ### 이벤트
 - 버튼 click 이벤트
   - 수행되는 함수의 내용 + btn
