@@ -4,12 +4,8 @@
 - 개인 프로젝트에서 네이밍 규칙 정리
 
 <details>
-<summary> ## Well</summary>
-  - hello world
-</details>
-
-
-## 변수
+<summary>변수</summary>
+  ## 변수
 > camelCase로 작성
 ### 상태값(State)
 - String
@@ -67,6 +63,10 @@
     p_userObj: Object,
   }
   ```
+</details>
+
+
+
 
 ## 함수
 > camelCase로 작성
