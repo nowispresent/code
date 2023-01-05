@@ -8,6 +8,8 @@
 
 ## 함수
 > camelCase로 작성
+> CRUD나 덧붙는 용어들은 snake_case로 연결
+
 ### API요청
 - GET 요청
   - get + 취득할 데이터가 보관될 변수명
