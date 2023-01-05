@@ -62,10 +62,17 @@ const rmUserObj = () => {...}
 
 ### 이벤트
 - 버튼 click 이벤트
-  - 수행되는 함수의 내용 + btn
+  - btn_ + 수행되는 함수의 내용
 ```js
 예) 회원 가입 버튼을 클릭 했을때 유저 객체를 POST 하는 함수
-const postUserObjBtn = () => {...}
+const btn_postUserObj = () => {...}
+```
+
+- input 이벤트
+  - input_ + 수행되는 함수의 내용
+```js
+예) 유저 이름을 입력할때 input값을 value에 바인딩 하는 함수
+const input_postUserName = () => {...}
 ```
 
 - 이외의 이벤트
