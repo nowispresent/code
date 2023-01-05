@@ -12,54 +12,60 @@
 
 ### API요청
 - GET 요청
-  - get + 취득할 데이터가 보관될 변수명
+  - get_ + 취득할 데이터가 보관될 변수명
 ```js
 예) 유저 목록 취득
-const getUserList = () => {...}
+const get_userList = () => {...}
 ```
 
 - POST 요청
-  - post + 작성할 데이터의 변수명
+  - post_ + 작성할 데이터의 변수명
 ```js
 예) 유저 객체 작성
-const postUserObj = () => {...}
+const post_userObj = () => {...}
 ```
 
 - Put 요청
-  - put + 수정할 데이터의 변수명
+  - put_ + 수정할 데이터의 변수명
 ```js
 예) 유저 객체 수정
-const putUserObj = () => {...}
+const put_userObj = () => {...}
 ```
 
 - DELETE 요청
-  - del + 삭제할 데이터의 변수명
+  - del_ + 삭제할 데이터의 변수명
 ```js
 예) 유저 객체 삭제
-const delUserObj = () => {...}
+const del_userObj = () => {...}
 ```
 
 ### 값의 변경 (DB값은 변경되지 않을때)
 > API를 요청하기 전이나, View에서만 값의 작성, 수정, 삭제등이 일어날때(특히 Obj, Arr의 경우)
-- 작성(Create)
-  - add + 작성할 데이터의 변수명
+- 작성, 추가(Create)
+  - add_ + 상세값_ + 작성, 추가 할 데이터의 변수명
 ```js
 예) 유저 객체 작성
-const addUserObj = () => {...}
+const add_userObj = () => {...}
 ```
 
 - 수정(Update)
-  - edit + 수정할 데이터의 변수명
+  - edit_ + 상세값_ + 수정할 데이터의 변수명
 ```js
+예) 유저 이름 수정
+const edit_userName = () => {...}
+
 예) 유저 객체 수정
-const editUserObj = () => {...}
+const edit_userObj = () => {...}
+
+예) 유저 객체의 이름 값만 수정
+const edit_name_userObj = () => {...}
 ```
 
 - 삭제(DELETE)
-  - rm + 삭제할 데이터의 변수명
+  - rm_ + 삭제할 데이터의 변수명
 ```js
 예) 유저 객체 삭제
-const rmUserObj = () => {...}
+const rm_userObj = () => {...}
 ```
 
 ### 이벤트
